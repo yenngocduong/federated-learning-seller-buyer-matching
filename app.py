@@ -4,7 +4,7 @@ import information_page
 import history_page
 from time import time
 import time
-import Pyrebase4 as pyrebase
+import Pyrebase4
 
 #database
 firebaseConfig = {
@@ -18,7 +18,7 @@ firebaseConfig = {
     'measurementId': "G-3CLV68BGM5"
 }
 
-firebase = pyrebase.initialize_app(firebaseConfig)
+firebase = Pyrebase4.initialize_app(firebaseConfig)
 auth = firebase.auth()
 
 db = firebase.database()
