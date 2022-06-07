@@ -2,7 +2,7 @@ import streamlit as st
 from seller import Seller, Ask
 from auctioneer import Auctioneer
 from buyer import Buyer, Bid
-from experience import experience1_2_4, experience3, experience5
+# from experience import experience1_2_4, experience3, experience5
 import pandas as pd, numpy as np
 import time
 
