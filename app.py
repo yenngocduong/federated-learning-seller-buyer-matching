@@ -4,7 +4,7 @@ import information_page
 import history_page
 from time import time
 import time
-import pyrebase4 as pyrebase
+import Pyrebase4 as pyrebase
 
 #database
 firebaseConfig = {
