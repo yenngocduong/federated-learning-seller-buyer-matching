@@ -1,5 +1,5 @@
 matplotlib==3.4.2
 numpy==1.19.5
 pandas==1.2.3
-pyrebase4==4.5.0
+Pyrebase4==4.5.0
 streamlit==1.10.0
