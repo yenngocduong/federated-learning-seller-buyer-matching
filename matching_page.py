@@ -128,7 +128,6 @@ def matching(seller_num, buyer_num, seller_ask, buyer_bid, bid_box, buyer_budget
             'buyer_bid': buyer_bid_dic, "method": method,
             'seller_reward': seller_result_dic,
             "bid_result": bid_result_dic}
-    print(type(data))
     db.child('record').child(id).set(data)
     # db.child('record').push(data)
     #end
